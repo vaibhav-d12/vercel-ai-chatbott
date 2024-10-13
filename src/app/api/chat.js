@@ -1,5 +1,6 @@
 // pages/api/chat.js
 import { Configuration, OpenAIApi } from 'openai';
+import React from 'react';
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY, // Store API key in environment variable
